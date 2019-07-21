@@ -14,4 +14,8 @@ int main(){
     while(--x){ // counts numbers down
         cout << x << endl;
     }
+
+    do{
+        cout << x <<endl;
+    }while(false);
 }
