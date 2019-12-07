@@ -1,5 +1,7 @@
-
-output: pointer.o
-	g++ pointer.o -o output
-pointer.o:
+all:
 	g++ -c pointer.cpp
+	g++ -o pointer pointer.o
+	./pointer
+clean:
+	rm pointer.o
+	rm ./pointer
