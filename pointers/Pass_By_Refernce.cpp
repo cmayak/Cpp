@@ -8,10 +8,10 @@ void passByReference(int *x);
 
 int main(){
     int juan = 22;
-    int billy = 22;
+    int billy = 42;
 
-    passByValue(juan);
-    passByReference(&billy);
+	passByValue(juan);
+	passByReference(&billy);
 
     cout << "This is the value for juan " << juan << endl;
     cout << "This is the value for billy " << billy << endl;
